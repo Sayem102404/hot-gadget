@@ -1,0 +1,86 @@
+    .container {
+        margin-bottom: 50px;
+        border-radius: 40px;
+    }
+    
+    .body {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .carousel-item {
+        padding: 20px 40px;
+    }
+    /* Indicators color */
+    
+    .carousel-indicators .active {
+        background-image: linear-gradient(to right, #e88f41, #e8da41, #e88f41);
+        width: 60px;
+        height: 8px;
+        padding: 2px;
+        border-radius: 12px;
+    }
+    /* "Buy Now" button design */
+    
+    .buy-now-button {
+        background-image: linear-gradient(to bottom, #111011 0%, #0a090a 100%);
+        color: #fff;
+        border: none;
+        margin-top: 10px;
+        border-radius: 8px;
+        padding: 9px 25px;
+        cursor: pointer;
+    }
+    /* "Background image-1" */
+    .bg-1 {
+        background-image: url("images/bg-1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    /* "Background image-2" */
+    
+    .bg-2 {
+        background-image: url("images/bg-2.png");
+        background-repeat: no-repeat;
+    }
+    /* "Card" design */
+    
+    .card {
+        border: none;
+        margin-top: 100px;
+        box-shadow: 5px 5px 5px 5px #f5f7f7;
+        border-radius: 20px;
+    }
+    
+    .card-footer {
+        background-color: white;
+        border-top: 10px;
+    }
+    
+    #subscribe {
+        height: 300px;
+    }
+    
+    .finish {
+        text-align: center;
+        width: 100px;
+        background-image: linear-gradient(to right, #e88f41, #e8da41, #e88f41);
+        height: 8px;
+        border-radius: 30px;
+    }
+    
+    .text {
+        text-align: center;
+    }
+    
+    .catborder {
+        background-image: linear-gradient(to bottom,#FF9C35,#FFD019);
+        height: 10px;
+        border-radius: 10px;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #dfd4d2;
+        margin-top: 100px;
+    }
